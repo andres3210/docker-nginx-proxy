@@ -20,7 +20,7 @@ version: '3'
 services:
   example_app:
     environment:
-			# mandatory annotation to define host or hosts (comma separated)
+      # mandatory annotation to define host or hosts (comma separated)
       - VIRTUAL_HOST=${APP_HOST}
       # mandatory annotation to define listening port
       - VIRTUAL_PORT=80
